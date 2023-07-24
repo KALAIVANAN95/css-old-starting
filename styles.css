@@ -1,0 +1,100 @@
+/* div p{
+    color: red;
+} */
+
+div > p {
+  color: yellow;
+}
+
+div + p {
+  color: maroon;
+}
+/* div ~ p{
+    color: aqua;
+} */
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: aquamarine;
+}
+a:hover {
+  color: magenta;
+}
+a:active {
+  color: blueviolet;
+}
+pre::first-letter {
+  color: red;
+}
+pre::first-line {
+  color: rebeccapurple;
+}
+
+/* pre::before{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiORlLnmxrAemvrnaHNkP81DUCdJ2LWtvl49n5xAq31qp_Tex6g0e42mw2dD65PeQYUuE&usqp=CAU)
+    
+} */
+
+::selection {
+  color: cadetblue;
+}
+
+a[target] {
+  background-color: yellowgreen;
+}
+a[href="https://www.yahoo.com"]
+{
+  background-color: chocolate;
+}
+
+a[title~="company"] {
+  background-color: violet;
+}
+/* h1{
+    color:blue;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.content{
+    color: red;
+}
+
+#title{
+    color:yellow;
+}
+
+.external{
+    color:navy;
+} */
+
+/* div p{
+    color:violet;
+} */
+
+/* or */
+/* div>p{
+    color:red;
+} */
+/* 
+div+p{
+    color:aqua;
+} */
+
+/* div~p{
+    color:red;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: magenta;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color:cadetblue;
+} */

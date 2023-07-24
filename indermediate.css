@@ -1,0 +1,50 @@
+ul {
+  background-color: #3399ff;
+  padding: 20px;
+}
+ul li {
+  background-color: #cce5ff;
+  margin: 4px;
+}
+
+table {
+  width: 100%;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid brown;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #3399ff;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  background-color: crimson;
+}
+
+/* .navbar{
+    position: fixed;
+    top:110px;
+    left: 100px;
+} */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+}
+
+.title {
+  position: absolute;
+  right: 10px;
+}

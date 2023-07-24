@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>basic of css for seminar purpose</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .internal {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>What is css</h2>
+    <p>
+      It will b give a style of html element.. It will support and control the
+      multible web page layout
+    </p>
+    <br />
+    <h2>Syntax of css</h2>
+    <pre>
+        selectors {
+            Declaration block
+            Propety:value
+        }
+    </pre>
+    <br />
+
+    <h2 class="contents" id="titles">Typeof Selector 5 types</h2>
+    <ul>
+      <li>Simple Selector</li>
+    </ul>
+    <p>
+      Tag name or id or class name-it will be used to select and style the
+      elements
+    </p>
+    <pre>
+        h1{
+            color:red;
+        }
+
+        .content{
+            color:yello
+        }
+        #title{
+            color:orange
+        }
+
+        Id:First important
+        Class:Second importent
+        Tag:Third importent 
+    </pre>
+    <em class="content">Simple Selector</em>
+    <p id="title">This is paragraph</p>
+    <br />
+    <h1>Different ways of styling</h1>
+    <ol>
+      <li style="color: red">Inline-it will b written inside of tag</li>
+      <li class="internal">Internal - It will b written inside of style tag</li>
+      <li class="external">External - It will b created sep file</li>
+    </ol>
+    <br />
+
+    <h3>Type selectors-Combinator selector 4</h3>
+    <ul>
+      <li>Descentdent selector - (space)</li>
+      <li>Child Selector - (>)</li>
+      <li>adjecent sibling selector-(+)</li>
+      <li>General sibling Selector - (~)</li>
+    </ul>
+    <strong>Descentdent selector - (space)</strong>
+    <pre>
+        it will b add the style div inside p tag
+
+        div p{
+            color:red
+        }
+    </pre>
+
+    <strong>Child selector - (>)</strong>
+    <pre>
+        it will b add the style div inside p tag
+
+        div > p{
+            color:red
+        }
+        Descentdent and Child Selector both are the same selector (used space and > than symbol)
+    </pre>
+    <strong>adjecent sibling selector-(+)</strong>
+    <pre>
+        it will b add the style div after that one p tag 
+
+        div + p{
+            color:red
+        }
+       
+    </pre>
+    <strong>General sibling Selector-(~)</strong>
+    <pre>
+        it will b add the style div after that all p tag 
+
+        div ~ p{
+            color:red
+        }
+       
+    </pre>
+    <div>
+      <p>p tag only style</p>
+    </div>
+    <p>Next p tag for before div tag</p>
+    <p>Next p tag for before div tag</p>
+    <p>Next p tag for before div tag</p>
+
+    <br />
+
+    <strong
+      >Pseudo-class selectors (select elements based on a certain state)</strong
+    >
+    <p>It will add the style to special state or element based style</p>
+    <a href="https://www.google.com">Link</a>
+    <pre>
+        a:link{
+            color:red;
+        }
+        a:visited{
+            color:yellow
+        }
+        a:hover{
+            color:teal
+        }
+        a:acive{
+            color:violet
+        }
+    </pre>
+    <br />
+    <strong
+      >Pseudo-elements selectors (select and style a part of an element)</strong
+    >
+
+    <span
+      >Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />Ullam,
+      odio?</span
+    >
+    <pre>
+        it will be add the style to first letter
+        it somthing
+    </pre>
+    <br />
+    <strong>Attribute selector</strong>
+    <p>It will b give a style based on the Attribute</p>
+    <a href="https://www.google.com" target="_blank">Google</a><br /><br />
+    <a href="https://www.yahoo.com">Yahoo</a><br /><br />
+    <a href="https://www.amazon.com" title="amazon company">Amazon</a>
+    <br />
+    <strong>Colors in Css</strong>
+    <ul>
+      <li>RGB</li>
+      <li>HEX</li>
+      <li>HSL</li>
+      <li>RGBA</li>
+      <li>HSLA</li>
+    </ul>
+    <pre>
+       i) hexadecimal
+        h1{
+         color:#rrggbb
+        }
+        
+        ii) RGB
+        h1{
+            color:rgb(22,33,32)
+        }
+
+        iii)HSL
+        h1{
+            color:hsl(120,50%,50%)
+        }
+
+        rgba & hsla -- alpha or opacity
+        
+    </pre>
+
+    <br />
+
+    <strong>Background in CSS</strong>
+    <pre>
+        h1{
+            background-color:red;
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+    </pre>
+
+    <br />
+    <strong>CSS Borders</strong>
+    <pre>
+        h1{
+            border:1px solid red;
+        }
+
+        h1{
+            border-width:1px;
+            border-style:solid;
+            border-color:green;
+        }
+
+        h1{
+            border-style:dotted dashed solid double
+            border-radius:3px;
+        }
+    </pre>
+
+    <br />
+    <strong>Fonts in CSS</strong>
+    <ul>
+      <li>Serif - This is old font size</li>
+      <li>Sans-Serif - This is new font size</li>
+    </ul>
+    <pre>
+        h1{
+            font-family:"Sans-Serif"
+            font-weight:200;
+            font-style:italic;
+        }
+    </pre>
+
+    <a href="./intermediatecss.html">Intermediatecss</a>
+  </body>
+</html>
